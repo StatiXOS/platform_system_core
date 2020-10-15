@@ -156,12 +156,18 @@ cc_defaults {
     visibility: [":__subpackages__"],
 }
 
+soong_config_module_type_import {
+    from: "vendor/statix/build/soong/Android.bp",
+    module_types: ["vendor_init_lib_defaults"],
+}
+
 cc_library_static {
     name: "libinit",
     recovery_available: true,
     defaults: [
         "init_defaults",
         "selinux_policy_version",
+//        "vendor_init_lib",
     ],
     srcs: init_common_sources + init_device_sources,
     whole_static_libs: [
@@ -182,14 +188,6 @@ cc_library_static {
                 "libbinder",
                 "libutils",
             ],
-        },
-    },
-
-    product_variables: {
-        statix: {
-            target_init_vendor_lib: {
-                whole_static_libs: ["%s"],
-            },
         },
     },
 }
