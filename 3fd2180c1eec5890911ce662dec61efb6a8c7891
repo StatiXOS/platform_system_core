@@ -16,6 +16,24 @@
       "message": "fucks fastbootd on op9p",
       "revId": "3fd2180c1eec5890911ce662dec61efb6a8c7891",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a59190a5_3d5e8312",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000071
+      },
+      "writtenOn": "2022-01-22T11:56:24Z",
+      "side": 1,
+      "message": "Check old patchset \n\nhttps://github.com/ProtonAOSP/android_system_core/commit/5970cd2c60d7f87cb9d692749859f2a674fd1153\n\nhttps://github.com/ProtonAOSP/android_system_core/commit/b3e5012cd3fb548a2ace63b2cb874188dfe1fab0",
+      "parentUuid": "86bccc13_419ddac7",
+      "revId": "3fd2180c1eec5890911ce662dec61efb6a8c7891",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
