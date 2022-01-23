@@ -34,6 +34,24 @@
       "parentUuid": "86bccc13_419ddac7",
       "revId": "3fd2180c1eec5890911ce662dec61efb6a8c7891",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4c3c656c_ebf42716",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-01-23T01:01:48Z",
+      "side": 1,
+      "message": "from the first commit: The Pixel 6 series of devices uses bootconfig instead of cmdline to set\nro.boot properties, so this no longer works. We\u0027ll have to fix init\ninstead.",
+      "parentUuid": "a59190a5_3d5e8312",
+      "revId": "3fd2180c1eec5890911ce662dec61efb6a8c7891",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
