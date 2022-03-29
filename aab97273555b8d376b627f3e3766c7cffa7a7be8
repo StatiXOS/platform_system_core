@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3df92ab3_478f4dfa",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2022-03-29T00:04:09Z",
+      "side": 1,
+      "message": "idk why luk hates the fastboot hal so much, we can just build that instead if this is not merged in aops",
+      "revId": "aab97273555b8d376b627f3e3766c7cffa7a7be8",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
