@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d1b2cedf_5c913ac0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000122
+      },
+      "writtenOn": "2023-03-03T15:41:30Z",
+      "side": 1,
+      "message": "This will fix charger detection on Xiaomi stock chargers",
+      "revId": "68c7a55ea65e52cdb0a0cc002e0588eaf97d7847",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
